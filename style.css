@@ -1,0 +1,143 @@
+.container {
+  margin-top: 50px;
+  padding: 50px;
+  border: 3px solid #9cbdf3;
+  border-radius: 6px;
+  background-color: white;
+  max-width: 800px;
+  background: linear-gradient(to top, #a5cbff 0%, #eec8a7 100%);
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: white;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+ul.city-info {
+  padding-left: 0;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#current-date,
+#current-time,
+#current-situation,
+#current-wind {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.days-week-container {
+  text-align: center;
+  border: 2px solid #e1e9f7;
+  border-radius: 6px;
+  font-size: 18px;
+  margin: 10px;
+  padding: 12px;
+}
+
+.days-week {
+  font-weight: 500;
+}
+
+.days-week-icon {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  font-size: 36px;
+}
+
+.days-week-temperature {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.main-info {
+  margin-top: 32px;
+}
+
+.main-icon-container {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.main-icon {
+  font-size: 90px;
+  color: rgb(253, 192, 11);
+}
+
+.main-icon-info {
+  font-size: 15px;
+  margin: 20px;
+  font-weight: 500;
+}
+
+.degree {
+  position: relative;
+  top: -38px;
+  font-size: 35px;
+}
+
+.main-temperature-container {
+  text-align: center;
+  position: relative;
+  top: -25px;
+}
+
+.main-temperature {
+  font-size: 90px;
+}
+
+.temperature-switcher-container {
+  position: absolute;
+  top: -4px;
+  right: 0;
+}
+
+.temperature-switcher-button {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.feels-like-max-min {
+  font-size: 13px;
+  position: relative;
+  top: -25px;
+  right: 15px;
+  font-weight: 300;
+}
+
+.fa-sun {
+  color: rgb(245, 253, 11);
+}
+
+.fa-cloud {
+  color: #8af9ff;
+}
+
+.fa-cloud-bolt {
+  color: #8af9ff;
+}
+
+.fa-wind {
+  color: #8af9ff;
+}
+
+.myname {
+  font-size: 80%;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-family: "Courgette", cursive;
+}
